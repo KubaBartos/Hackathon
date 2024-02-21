@@ -34,18 +34,34 @@ h1 {
 }
 
 .a-grid-item {
-  display: flex;
-  min-height: 30vh;
-  background-image: url("img/placeholder.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  vertical-align: bottom;
-  box-shadow: inset 0px -30px 10px 0px rgba(0, 0, 0, 0.692);
+  overflow: hidden;
+  position: relative;
 }
 
-.a-grid-item h2 {
-  margin: 0;
+.bg {
+  display: flex;
+  min-height: 30vh;
+  background-image: url("img/placeholder1.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.a-grid-item:hover .bg {
+  transform: scale(1.1);
+}
+
+.static {
+  box-shadow: inset 0px -40px 15px -20px rgba(0, 0, 0, 0.6);
+  vertical-align: bottom;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.static h2 {
+  margin: 0 5px;
   padding: 5px;
   align-self: flex-end;
   font-size: 16px;
