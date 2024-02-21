@@ -1,0 +1,60 @@
+$bg-color: white;
+$primary-color: #333;
+
+body {
+    font-family: "Noto Sans Mono", monospace;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+    align-self: center;
+}
+
+.topmenu { 
+    width: 80%;
+    padding: 1px 10%;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.topmenu h1{
+    margin: 0;
+}
+
+.content {
+    padding: 10px 10%;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.a-grid-item {
+    display: flex;
+    min-height: 30vh;
+    background-image: url("img/placeholder.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    vertical-align: bottom;
+    box-shadow: inset 0px -30px 10px -0px rgba(0, 0, 0, 0.692);
+}
+
+.a-grid-item h2 {
+    margin: 0;
+    padding: 5px;
+    align-self: flex-end; 
+    font-size: 16px;
+}
+
+.nadpis-center {
+    text-align: center;
+    font-size: 24px;
+}
