@@ -1,17 +1,12 @@
-
-#slide-body{
-    height: 55px;    
-    overflow: hidden;
-    transition:             height 500ms ease;
-        -moz-transition:    height 500ms ease;
-        -ms-transition:     height 500ms ease;
-        -o-transition:      height 500ms ease;
-        -webkit-transition: height 500ms ease;
-}
-.expanded {
-    height: auto !important;
-}
-#more {    
-    cursor: pointer;
-    text-align: center;
+.gallery {
+    box-sizing: border-box;
+    column-count: 4;
+    break-inside: avoid;
+    gap: 5px;
+  
+    & img {
+        width: 100%;
+        margin-bottom: 0;
+        border-radius: 10px;
+    }
 }

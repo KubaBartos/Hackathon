@@ -1,3 +1,8 @@
+$bg-color: #fff;
+$text-color: #000;
+$light-text-color: #000;
+$accent-color: rgb(0, 0, 0);
+
 .design-section {
     margin-top: 30px;
   width: 100%;
@@ -22,7 +27,7 @@
 }
 
 .timeline-content {
-  color: rgb(0, 0, 0);
+  color: $text-color;
   padding: 3px;
   transition: 0.4s ease;
   overflow-wrap: break-word !important;
@@ -40,7 +45,7 @@
   }
   .timeline-middle {
     position: relative;
-    background-color: black;
+    background-color: $accent-color;
     width: 2px;
     height: 100%;
   }
@@ -54,7 +59,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: black;
+    background-color: $accent-color;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }

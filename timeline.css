@@ -23,7 +23,7 @@
 }
 
 .timeline-content {
-  color: rgb(0, 0, 0);
+  color: #000;
   padding: 3px;
   transition: 0.4s ease;
   overflow-wrap: break-word !important;
@@ -41,7 +41,7 @@
   }
   .timeline-middle {
     position: relative;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 2px;
     height: 100%;
   }
@@ -55,7 +55,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     transform: translateX(-50%);
   }
 }
