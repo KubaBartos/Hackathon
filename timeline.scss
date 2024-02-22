@@ -1,7 +1,8 @@
-$bg-color: #fff;
-$text-color: #000;
+$bg-color: #333;
+$text-color: #fff;
 $light-text-color: #000;
-$accent-color: rgb(0, 0, 0);
+$content-color: #1a1a1a;
+$accent-color: rgb(255, 255, 255);
 
 .design-section {
     margin-top: 30px;
@@ -21,7 +22,7 @@ $accent-color: rgb(0, 0, 0);
 
 .timeline {
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   display: flex;
   flex-direction: column;
 }
