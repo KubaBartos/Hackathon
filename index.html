@@ -103,7 +103,7 @@
     <script src="gallery.js"></script>
 
     <script>
-        const main = document.querySelector('main');
+        const gallery = document.querySelector('gallery');
         const count = 50;
         const gist = 'https://gist.githubusercontent.com/mondenoir/1b63931082369e473deaefad24d9a33c/raw/11d8efead3398126a08adc06ad126c3d380a940a/masonry2.json';
 
@@ -125,7 +125,7 @@
             const img = document.createElement('img');
             img.src = data[random()];
             img.loading = 'lazy';
-            main.append(img);
+            gallery.append(img);
         }
         }
 
