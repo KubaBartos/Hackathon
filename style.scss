@@ -1,13 +1,13 @@
-$bg-color: #333;
-$text-color: #fff;
+$bg-color: #fff;
+$text-color: #000;
 $light-text-color: #000;
-$content-color: #1a1a1a;
+$content-color: #fff;
 
 body {
     font-family: "Noto Sans Mono", monospace;
     padding: 0;
     margin: 0;
-    background-color: #111;
+    background-color: #fff;
     color: $text-color;
 }
 
@@ -30,58 +30,12 @@ h1 {
 
 .content {
     background-color: $content-color;
-    margin: 10px 10%;
-    padding: 5px 5px;
+    margin: 0px 10%;
     text-align: justify;
     font-size: 14px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
-    border-radius: 15px;
-}
-
-.article-grid {
-    margin: 0px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
-}
-
-.a-grid-item {
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-}
-
-.bg{
-    display: flex;
-    min-height: 30vh;
-    background-image: url("img/placeholder1.jpg");
-    background-size: cover;
-    background-position: center;
-    transition: all 0.5s ease-in-out;
-}
-
-.a-grid-item:hover .bg {
-    transform: scale(1.1);
-}
-
-.static {
-    box-shadow: inset 0px -40px 15px -20px rgba(0, 0, 0, 0.6);
-    vertical-align: bottom;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    color: white;
-}
-
-.static h2 {
-    margin: 0 5px;
-    padding: 5px;
-    align-self: flex-end; 
-    font-size: 16px;
 }
 
 .nadpis-center {
-    color: #fff;
     text-align: center;
     font-size: 24px;
 }
